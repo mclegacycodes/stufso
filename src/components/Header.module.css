@@ -1,0 +1,48 @@
+.brand{
+    display: flex;
+    gap: 8px;
+}
+.header{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 10%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.header nav ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+.header ul li{
+    color: #9396A1;
+    font-weight: 600;
+}
+.header ul li:hover{
+    color: #1E378A;
+    cursor: pointer;
+    /* font-weight: 600; */
+}
+
+
+.header span{
+font-size: 18px;
+font-weight: 800;
+text-transform: uppercase;
+color: #1E378A;
+
+}
+.header p{
+font-size: 16px;
+font-weight: 600;
+color: #9396A1;
+
+}
