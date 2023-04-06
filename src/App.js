@@ -1,4 +1,4 @@
-import Excerpts from "./components/Excerpts";
+import Excerpts from "./components/Excerpts/Excerpts";
 import Header from "./components/Header/Header";
 import HeroPage from "./components/Hero/HeroPage";
 import NeutralBg from "./components/NeutralBg";
@@ -6,6 +6,7 @@ import awardees from "./images/awardees-icon.svg"
 import schemes from "./images/books-icon.svg"
 import applicants from "./images/applicants-icon.svg"
 import sponsors from "./images/sponsors-icon.svg"
+import About from "./components/About";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Excerpts icon={applicants} title="2,000" subtitle="Yearly Applicants"/>
          <Excerpts icon={sponsors} title="1,000" subtitle="Scholarship Sponsors"/>
       </NeutralBg> 
+
+      <About/>
     </div>
   );
 }
