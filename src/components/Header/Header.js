@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from "../images/ucc-logo.png";
-import CtaButton from './CtaButton';
+import logo from "../../images/ucc-logo.png";
+import CtaButton from '../CtaButton';
 import styles from "./Header.module.css";
 const Header = () => {
   return (
@@ -21,7 +21,7 @@ const Header = () => {
                 <li>Home</li>
                 <li>Home</li>
             </ul>
-            <CtaButton/>
+            <CtaButton title="Login" className={styles.blue}/>
         </nav>
         </header>
     </div>

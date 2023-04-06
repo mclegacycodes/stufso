@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from "./CtaButton.module.css";
 
-const CtaButton = () => {
+const CtaButton = (props) => {
   return (
     <div>
-          <button className={styles.button}>Login</button>
+          <button className={`${styles.button} ${props.className}`}> {props.title}</button>
     </div>
   
   )
