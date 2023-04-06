@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import HeroPage from "./components/HeroPage";
+import HeroPage from "./components/Hero/HeroPage";
 
 
 function App() {
