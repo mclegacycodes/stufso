@@ -5,7 +5,7 @@
     padding-right: 10%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    /* gap: 8px; */
     justify-content: center;
     align-items: center;
     background-image: url(../../images/herobg.jpg);
@@ -15,6 +15,7 @@ font-size: 48px;
 line-height: 48px;
 font-weight: 900;
 color: white;
+margin-bottom: 8px;
 
 }
 .hero p{
@@ -25,6 +26,7 @@ text-align: center;
 color: #93ACFD;
 max-width: 735px;
 word-wrap: wrap;
+margin-bottom: 24px;
 
 }
 .yellow{

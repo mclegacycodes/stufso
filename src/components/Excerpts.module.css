@@ -1,0 +1,21 @@
+.exerpt{
+    display: flex;
+    gap:24px;
+    background-color: white;
+    padding: 42px 64px;
+    min-width: 285px;
+    border-radius: 8px;
+    filter: drop-shadow(2px 4px 8px rgba(177, 182, 231, 0.14));
+}
+.exerpt:hover{
+    filter: none;
+}
+.exerpt h3{
+    font-size: 24px;
+    color: #1E378A;
+    margin-bottom: 2px;
+}
+.exerpt p{
+    color: #9396A1;
+
+}
