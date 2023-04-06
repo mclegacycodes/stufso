@@ -1,5 +1,5 @@
 import React from 'react'
-import CtaButton from '../CtaButton';
+import CtaButton from '../UI/CtaButton';
 import styles from "./HeroPage.module.css";
 
 const HeroPage = () => {

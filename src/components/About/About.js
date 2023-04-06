@@ -1,8 +1,7 @@
 import React from 'react'
 import classes from "./About.module.css";
-import NeutralBg from './NeutralBg';
-import sampleImg from "../images/sample.jpg";
-import HeadingText3 from './HeadingText3';
+import NeutralBg from '../NeutralBg';
+import HeadingText3 from '../UI/HeadingText3';
 const About = () => {
     const bgImage=document.getElementById("bgImage");
     // bgImage.style.backgroundImage="url(`${}`)"

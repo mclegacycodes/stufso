@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../../images/ucc-logo.png";
-import CtaButton from '../CtaButton';
+import CtaButton from '../UI/CtaButton';
 import styles from "./Header.module.css";
 const Header = () => {
   return (
