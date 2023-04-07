@@ -1,18 +1,14 @@
 
-.bgImage{
-    content: "";
-    background-image: url("../../images/sample.jpg");
-    height: 500px;
-    width: 50%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.about{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
 .white{
     background-color: white;
 }
 .about .texts{
-    width: 40%;
+    width: 42%;
     /* width: 600px; */
 }
 .texts p{
