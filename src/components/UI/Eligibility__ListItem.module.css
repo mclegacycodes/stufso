@@ -1,0 +1,25 @@
+.list{
+  position: relative;  
+  display: flex;
+  margin-left: 48px;
+}
+.list span{
+    position: absolute;
+    font-size: 14px;
+    left:-48px;
+    top:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 32px;
+    background-color: #1D49D8;
+    color: white;
+    border-radius: 4px;
+    z-index: 1;
+}
+.list p{
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
