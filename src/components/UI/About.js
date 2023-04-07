@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTemplate from '../SectionTemplate/SectionTemplate'
+import SectionTemplate from '../About/SectionTemplate'
 import sampleImg from "../../images/sample.jpg";
 
 const About = () => {
