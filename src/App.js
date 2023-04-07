@@ -6,7 +6,8 @@ import awardees from "./images/awardees-icon.svg"
 import schemes from "./images/books-icon.svg"
 import applicants from "./images/applicants-icon.svg"
 import sponsors from "./images/sponsors-icon.svg"
-import About from "./components/About/About";
+import About from "./components/UI/About";
+
 
 
 function App() {
