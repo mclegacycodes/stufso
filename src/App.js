@@ -7,8 +7,8 @@ import schemes from "./images/books-icon.svg"
 import applicants from "./images/applicants-icon.svg"
 import sponsors from "./images/sponsors-icon.svg"
 import About from "./components/UI/About";
-import Eligible from "./components/UI/Eligible";
-
+import Eligibility from "./components/UI/Eligibility";
+import Objectives from "./components/Objectives/Objectives"
 
 
 function App() {
@@ -25,7 +25,8 @@ function App() {
       </NeutralBg> 
 
       <About/>
-      <Eligible/>
+      <Objectives/>
+      <Eligibility/>
     </div>
   );
 }

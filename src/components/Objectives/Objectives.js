@@ -1,10 +1,10 @@
 import React from 'react'
 import SectionTemplate from '../SectionTemplate/SectionTemplate';
 import sampleImg from "../../images/sample.jpg";
-import classes from "./Eligible.module.css";
-import Eligibility__ListItem from './Eligibility__ListItem';
+import classes from "./Objectives.module.css";
+import Eligibility__ListItem from '../UI/Eligibility__ListItem';
 
-const Eligible = () => {
+const Objectives = () => {
   return (
     <div>
         <SectionTemplate title="Our Objectives" bgImage={sampleImg} bgColor={classes.blue}>
@@ -27,4 +27,4 @@ const Eligible = () => {
   )
 }
 
-export default Eligible
+export default Objectives

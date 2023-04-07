@@ -1,0 +1,8 @@
+.blueBg{
+    background-color: #EFF3FF;
+}
+.listWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

@@ -7,7 +7,7 @@
     position: absolute;
     font-size: 14px;
     left:-48px;
-    top:16px;
+    top:18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,6 @@
     z-index: 1;
 }
 .list p{
-    background-color: white;
-    padding: 12px 24px;
+    padding: 14px 24px;
     border-radius: 8px;
 }

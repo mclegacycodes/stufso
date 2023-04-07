@@ -5,7 +5,7 @@ const Eligibility__ListItem = (props) => {
   return (
     <div className={classes.list}>
       <span>{props.number}</span>
-      <p>{props.content}</p>
+      <p className={props.contentBg}>{props.content}</p>
 
     </div>
   )
