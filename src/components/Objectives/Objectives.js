@@ -4,7 +4,9 @@ import sampleImg from "../../images/sample.jpg";
 import classes from "./Objectives.module.css";
 import Eligibility__ListItem from '../UI/Eligibility__ListItem';
 
+
 const Objectives = () => {
+  
   return (
     <div>
         <SectionTemplate title="Our Objectives" bgImage={sampleImg} bgColor={classes.blue}>
