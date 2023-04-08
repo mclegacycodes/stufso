@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionTemplate from '../SectionTemplate/SectionTemplate';
-import Eligibility__ListItem from './Eligibility__ListItem';
+import Eligibility__ListItem from '../UI/Eligibility__ListItem';
 import sampleImg from "../../images/sample.jpg";
 import classes from "./Eligibility.module.css";
 import icon from "../../images/scholarIcon.svg";
