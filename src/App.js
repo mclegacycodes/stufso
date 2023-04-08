@@ -9,7 +9,7 @@ import sponsors from "./images/sponsors-icon.svg"
 import About from "./components/UI/About";
 import Eligibility from "./components/Eligibility/Eligibility";
 import Objectives from "./components/Objectives/Objectives"
-import HowToApply from "./components/UI/HowToApply";
+import HowToApply from "./components/HowToApply/HowToApply";
 
 
 function App() {

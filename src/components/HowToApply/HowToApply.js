@@ -1,6 +1,6 @@
 import React from 'react'
-import HeadingText3 from './HeadingText3'
-import NeutralBg from './NeutralBg'
+import HeadingText3 from '../UI/HeadingText3'
+import NeutralBg from '../UI/NeutralBg'
 import StepCard from './StepCard'
 import classes from "./HowToApply.module.css";
 
