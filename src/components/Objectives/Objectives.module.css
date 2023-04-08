@@ -9,3 +9,6 @@
     flex-direction: column;
     gap: 24px;
 }
+.white{
+    background-color: white;
+}
