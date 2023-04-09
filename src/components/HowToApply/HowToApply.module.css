@@ -1,5 +1,6 @@
 .col{
     flex-direction: column;
+    align-items: center;
     gap: 64px;
 
 }
@@ -9,4 +10,7 @@
     align-items: center;
     justify-content: space-between;
     
+}
+.btn{
+    background-color: #1E378A;
 }

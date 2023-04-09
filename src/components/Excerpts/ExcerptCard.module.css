@@ -2,6 +2,7 @@
     background-color: white;
     padding: 42px 64px;
     min-width: 285px;
+    height: 140px;
     border-radius: 8px;
     filter: drop-shadow(2px 4px 8px rgba(177, 182, 231, 0.14));
 }

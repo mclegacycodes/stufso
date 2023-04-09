@@ -10,6 +10,7 @@ import About from "./components/UI/About";
 import Eligibility from "./components/Eligibility/Eligibility";
 import Objectives from "./components/Objectives/Objectives"
 import HowToApply from "./components/HowToApply/HowToApply";
+import Testimonial from "./components/Testimonials/Testimonial";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Objectives/>
       <Eligibility/>
       <HowToApply/>
+      <Testimonial/>
     </div>
   );
 }
