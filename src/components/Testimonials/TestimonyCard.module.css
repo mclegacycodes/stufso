@@ -1,0 +1,51 @@
+.testimonyCard{
+    background: #1E40AF;
+    border-bottom: 1px solid #DBE3FE;
+    width: 420px;
+    height: 346px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px 16px;
+}
+.quote{
+    opacity: 0.16;
+}
+.imageRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circularImage img{
+height: 75px;
+width: 75px;
+border-radius: 50%;
+object-fit: cover;
+}
+.textQuote{
+font-style: italic;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.01em;
+color: #93ACFD;
+}
+.name{
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
+}
+.programme,.level{
+font-size: 14px;
+line-height: 17px;
+text-align: justify;
+letter-spacing: 0.01em;
+
+color: #BFCEFE;
+}
+.level{
+    font-weight: 600;
+
+}
